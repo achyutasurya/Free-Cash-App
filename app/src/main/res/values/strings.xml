@@ -1,0 +1,188 @@
+<resources>
+    <string name="app_name">Cash Pot</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+
+    <string name="parse_main_one">ThreeAllUsers</string>
+    <string name="parse_app_details">OneAppDetails</string>
+    <string name="parse_app_details_id">fVv0sqL1bu</string>
+    <string name="parse_history">ThreeHistory</string>
+    <string name="parse_payout">ThreePayOut</string>
+    <string name="parse_user_mobile">ThreeUserMobile</string>
+    <string name="parse_users_location">UsersLocation</string>
+    <string name="parse_login_users">ThreeLoginUsers</string>
+    <string name="parse_recent_paid">RecentOne</string>
+
+
+    <string name="app_name_login_signup">cash pot</string>
+
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_redeem">Payout</string>
+    <string name="nav_item_rate">RateUs</string>
+    <string name="nav_item_share">Share and Earn</string>
+    <string name="nav_item_faq">FAQ</string>
+    <string name="nav_item_privacy">Privacy Policy</string>
+    <string name="nav_item_contact">ContactUs</string>
+    <string name="nav_item_recently">Recent Payments</string>
+    <string name="nav_item_logout">LogOut</string>
+    <string name="nav_item_account">Profile</string>
+    <string name="nav_item_history">History</string>
+    <string name="nav_item_referal_history">Referrals</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_redeem</item>
+        <item>@string/nav_item_account</item>
+        <item>@string/nav_item_history</item>
+        <item>@string/nav_item_referal_history</item>
+        <item>@string/nav_item_recently</item>
+        <item>@string/nav_item_faq</item>
+        <item>@string/nav_item_privacy</item>
+        <item>@string/nav_item_contact</item>
+        <item>@string/nav_item_logout</item>
+    </string-array>
+
+    <string name="title_contact_us">ContactUs</string>
+    <string name="title_privacy">Privacy Policy</string>
+    <string name="title_faq">FAQ</string>
+    <string name="title_share">Share and Earn</string>
+    <string name="title_rate">RateUs</string>
+    <string name="title_redeem">Payout</string>
+    <string name="title_recently">Recent Payments</string>
+    <string name="title_home">Cash Pot</string>
+    <string name="title_history">Users History</string>
+    <string name="title_referal_history">Referral History</string>
+
+
+    <string name="textone">Watch the video and then click on the ads to get extra reward. we give you 30 points instantly with out any verification we trust you. If you are cheating you will not be paid.</string>
+    <string name="texttwo">Watch the video and then click on the ads to get extra reward. we give you 30 points instantly with out any verification we trust you. If you are cheating you will not be paid.</string>
+    <string name="textsurvey">Choose one or more options which mean correct to you for an available question. We give you 100 points for the successfully completed survey. Points will be rewarded instantly.</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="refer1"><b>Tell your Friends about US</b></string>
+
+
+    <string name="faq1"><b>How can I make money?</b></string>
+    <string name="faq7"><b>Is this easy?</b></string>
+    <string name="faq9"><b>How cash gets sended?</b></string>
+    <string name="faq3"><b>Can I use more than one account?</b></string>
+    <string name="faq4"><b>How to Redeem my money?</b></string>
+    <string name="faq5"><b>How much can I earn and when I get paid?</b></string>
+    <string name="faq6"><b>What if I do not follow Instructions?</b></string>
+    <string name="faq2"><b>What are the payment methods we send money?</b></string>
+    <string name="faq8"><b>How time it takes to pay the amount?</b></string>
+
+    <string name="faqtext1"><i>-Watch video ad, explore the new apps and complete the survey. Follow the instruction which is given in the respective task.</i></string>
+    <string name="faqtext7"><i>-Yes, it is very easy to make money. Basically, we are sharing our profits with our user. So that both can earn by at home and free time.</i></string>
+    <string name="faqtext3"><i>-Yes, you can. But for that, you need another mobile number and phone. Using the same mobile for the different account will lose the coins.</i></string>
+    <string name="faqtext4"><i>-For Redeem your money, you need at least 10000 points. You can earn points by watching videos and referring others.</i></string>
+    <string name="faqtext5"><i>-Your earning is depend on your task and you will get paid 100 INR/10000 points</i></string>
+    <string name="faqtext6"><i>-If you do not follow instructions OR violate any rules then you probably lose your account</i></string>
+    <string name="faqtext2"><i>-We send money through <b>Paytm</b>, directly to the Bank account(NEFT Transfer), <b>Bitcoin</b> (minimum limit 20000 points), <b>PayPal</b>(2% will be charged).</i></string>
+    <string name="faqtext8"><i>-Within 6 working days, your reward will be transferred to valid account details.</i></string>
+    <string name="faqtext9"><i>-If it was paypal or bitcoin we directly gets sended to your account, But, when it is paytm or google pay first we convert into your currency and gets transfered.</i></string>
+
+    <string name="survey_completed">Congratulations, you have won 100 points!</string>
+    <string name="logging">Please Wait Survey is Loading…</string>
+    <string name="user_not_eligible">Your Not Eligible to take Survey, please check later.</string>
+    <string name="not_available">Survey Not Available, check later</string>
+
+    <string name="referText"> <b>I have earned money from an online earning app where you can also earn money online up to 30 USD.</b>\n \n  Use the bellow Referral Code to get extra money <b>\"%s\"</b>  \n \n https://play.google.com/store/apps/details?id=com.dream.earntwo</string>
+
+
+    <string name="outofspins"><b>Out Of Spins</b></string>
+    <string name="youwon"><b>You Won</b></string>
+    <string name="points"><b>Points</b></string>
+    <string name="better"><b>Better Luck</b></string>
+    <string name="next"><b>Next Time</b></string>
+
+    <string name="readyPayment">Once you initiate the payment process its not reversible. Points will get deducted from account and converted to %s. The %d points converted to money of %dUSD.</string>
+
+    <string name="availableSpins">Available Spins : %d</string>
+    <string name="completeddeadLineSpin">Come After %d Min and get 3 Spins</string>
+    <string name="notCompleteddeadLineSpin">%d Spins is going to expire in %d Min</string>
+    <string name="toolbarpoints">%d</string>
+
+    <string name="privacyPolicy1">Users have to provide valid information.</string>
+    <string name="privacyPolicy2">Provide your PayPal email or Paytm phone number or other bank details correctly.</string>
+    <string name="privacyPolicy3">Do not spam in app.</string>
+    <string name="privacyPolicy4">Any other tricks or unfair means are not allowed.</string>
+    <string name="privacyPolicy5">We will analyze the users earning history to make sure they used a valid method of earning.</string>
+    <string name="privacyPolicy6">We have the right to hold/withdraw any reward.</string>
+    <string name="privacyPolicy7">All terms and conditions are decided by us and can be changed at any point in time.</string>
+    <string name="privacyPolicy8">DISCLAIMER- That we do not charge even a single rupee from any of our users of our applications as such do not have any commercial contractual understanding with any of its user and the use of our applications by the user is the exclusive choice of the users considering his/her own interest and a benefit, it is, therefore, during the validity of use of our application and any time thereafter, we shall not be under legal mandate to pay any money to any of the user of our apps and the user of our applications, at all times, shall be free to opt-out/uninstall our applications.</string>
+    <string name="privacyPolicy9">ARBITRATION NOTICE: BY ACCESSING OR USING THE SERVICES YOU AGREE THAT DISPUTES BETWEEN YOU AND The US, YOU WAIVE YOUR RIGHT TO PARTI CREATE IN A CLASS ACTION LAWSUIT, INITIATION OF ANY CIVIL AND/OR CRIMINAL PROCEEDINGS AGAINST us (Free Rokda Team) AND ANY SUCH ACTION IF INITIATED BY THE YOU I.E. THE USER WOULD BE VOID-AB-INITIO.</string>
+    <string name="privacyPolicy10">If you do not agree to be bound by all of these Terms of Use, do not access or use the Service. Survey Serving Technology </string>
+    <string name="privacyPolicy11">We allow third-party companies to serveads and collect certain anonymous information when you visit our app. These companies may use anonymous information such as your Google Advertising ID, your device type, and version, browsing activity, location and other technical data relating to your device, in order to provide advertisements. This app uses Pollfish SDK. Pollfish is an online survey platform, through which, anyone may conduct surveys. Pollfish collaborates with Developers of applications for smartphones in order to have access to users of such applications and address survey questionnaires to them. When a user connects to this app, a specific set of users device data (including Advertising. The ID which will be processed by Pollfish only in strict compliance with  google play policies- and/or other devices data) and response meta-data (including information about the apps which the user has installed on his mobile phone)is automatically sent to Pollfish servers, in order for Pollfish to discern whether the user is eligible for a survey. For a full list of data received by Pollfish through this app, please read carefully Pollfish respondent terms located at <b>https://www.pollfish.com/terms/respondent</b>. These data will be associated with your answers to the questionnaires whenever Polllfish sents such questionnaires to eligible users. By downloading the application you accept this privacy policy document and you hereby give you consent for the processing by Pollfish of the aforementioned data. Furthermore, you are informed that you may disable Pollfish operation at any time by using the Pollfish "opt-out section" available on Pollfish website. We once more invite you to check the respondents terms of use, if you wish to have more detailed view of the way Pollfish works.</string>
+    <string name="privacyPolicy12">APPLE, GOOGLE, AND AMAZON ARE NOT A SPONSOR NOR ARE INVOLVED IN Anyway IN THIS CONTEST/DRAW. NO APPLE PRODUCTS ARE BEING USED AS PRIZES.</string>
+
+    <string name="dash">-</string>
+
+
+    <string name="payout1"><b>30 USD Paytm Payout</b></string>
+    <string name="payout2"><b>30 USD Google Pay Payout</b></string>
+    <string name="payout3"><b>30 USD PayPal Payout</b></string>
+    <string name="payout4"><b>30 USD WeChat Payout</b></string>
+    <string name="payout5"><b>30 USD BitCoin Payout</b></string>
+
+    <string name="facebook_app_id">197774164187794</string>
+    <string name="fb_login_protocol_scheme">fb197774164187794</string>
+
+
+    <string name="activity_first_time">First Time</string>
+    <string name="activity_spin">Spin the Wheel</string>
+    <string name="activity_reward_two">Reward Task-2</string>
+    <string name="activity_reward_one">Reward Task-1</string>
+    <string name="activity_survey">Survey</string>
+    <string name="activity_refer">Referral Earning </string>
+    <string name="activity_with_drawn">WithDrawn</string>
+    <string name="activity_else">Points Earned</string>
+    <string name="activity_rate">Rating on PlayStore</string>
+    <string name="activity_game">HI-LO Game</string>
+
+
+    <string name="payout_submit">Submitted for Verification</string>
+    <string name="payout_verification_process">Verification is in process</string>
+    <string name="payout_verification_completed">Verification is completed</string>
+    <string name="payout_withdraw_rejected">Your Withdrawn is rejected</string>
+    <string name="payout_payment_processing">Payment is processing</string>
+    <string name="payout_payment_completed">Payment is completed</string>
+    <string name="payout_else">Extra Cash Team is verifying</string>
+
+
+    <string name="notification_head_one">Today Surveys</string>
+    <string name="notification_head_two">Spin The Wheel</string>
+    <string name="notification_head_three">Earn Money with no investment</string>
+
+
+    <string name="notification_one">You have forget to complete the survey. Earn money by completing the Survey</string>
+    <string name="notification_two">Spin The Wheel and Earn Money try your Luck earn up to 1000rs</string>
+    <string name="notification_three">Watch videos and get paid, from home thousands of users got paid. Start your earning today</string>
+
+
+    <string name="real_device_heading">Not Real Device</string>
+    <string name="real_device_content">We have Detected you are not using the real device to earn the money, So use only real time device to earn money. We do not allow this kind of action</string>
+
+    <string name="blocked_heading">Blocked</string>
+    <string name="blocked_content">We have blocked your account temporarily if you think we have blocked by mistake. Contact us : richardbrianofficial@yandex.com</string>
+    <string name="multiply_points">Multiply your points playing \n HI-LO Game</string>
+    <string name="game_rules">To Win, BET HI and get a number higher than 5000 or BET LO and get a number Lower.</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="full_name">Full Name</string>
+    <string name="referal_code_optional">Referral Code (optional)</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_a_member_login">Already a member? Login</string>
+    <string name="login">Login</string>
+    <string name="no_account_yet_create_one">No account yet? Create one</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="forget_password_content">Dont worry we are here to help you to get back to your account. Send your account details along with the last password you have set. Contact us : richardbrianofficial@yandex.com.</string>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F50057</color>
+    <color name="colorPrimaryDark">#C51162</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#FF80AB</color>
+
+    <color name="yellow">#ffb300</color>
+    <color name="pink">#fe104d</color>
+    <color name="darkblue">#23283a</color>
+    <color name="green">#00bfa5</color>
+    <color name="deeppurple">#7c4dff</color>
+
+    <color name="one">#03A9F4</color>
+    <color name="two">#F44336</color>
+    <color name="three">#EC407A</color>
+
+    <color name="testcolorblue">#152b38</color>
+    <color name="lightgray">#ededed</color>
+
+    <color name="layout">#E44563</color>
+    <color name="textcolor">#FFFFFF</color>
+    <color name="rules">#ECEFF1</color>
+
+
+    <color name="primary">#E43F3F</color>
+    <color name="primary_dark">#E12929</color>
+    <color name="primary_darker">#CC1D1D</color>
+    <color name="accent">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>
