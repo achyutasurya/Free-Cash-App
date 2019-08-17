@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dream.earntwo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.dream.earntwo.StarterApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <service
+            android:name="com.parse.fcm.ParseFirebaseInstanceIdService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.parse.fcm.ParseFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.parse.ParsePushBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.DELETE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.dream.earntwo.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.startapp.android.publish.ads.list3d.List3DActivity"
+            android:theme="@android:style/Theme" />
+        <activity
+            android:name="com.startapp.android.publish.adsCommon.activities.OverlayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.startapp.android.publish.adsCommon.activities.FullScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme" />
+
+        <service android:name="com.startapp.android.publish.common.metaData.PeriodicMetaDataService" />
+        <service android:name="com.startapp.android.publish.common.metaData.InfoEventService" />
+        <service
+            android:name="com.startapp.android.publish.common.metaData.PeriodicJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver android:name="com.startapp.android.publish.common.metaData.BootCompleteListener">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.dream.earntwo.VideoOneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dream.earntwo.VideoTwoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dream.earntwo.SurveyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dream.earntwo.ReferAndEarnActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dream.earntwo.RateUsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dream.earntwo.FaqActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dream.earntwo.SpinActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dream.earntwo.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name="com.dream.earntwo.SignupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name="com.dream.earntwo.SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/myname">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dream.earntwo.PrivacyPolicyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dream.earntwo.PointsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dream.earntwo.RecentlyPaidActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name="com.dream.earntwo.AlarmService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="a3dbc15b788b4fc4e38da37213fb9d550f090992" />
+
+        <!--
+            <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="5717e409484e307984933813076ae274a10d6cde" />
+        -->
+
+        <activity
+            android:name="com.dream.earntwo.HistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dream.earntwo.ReferralHistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dream.earntwo.AccountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.dream.earntwo.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <activity
+            android:name="com.dream.earntwo.ForgetPasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name="com.dream.earntwo.AccountChange"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.dream.earntwo.ImpressionsActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="com.dream.earntwo.ImpressionPage"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
