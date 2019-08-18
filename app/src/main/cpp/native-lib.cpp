@@ -13,8 +13,8 @@ extern "C" {
 // Define keys/Values for all the string constants
 const char *mStringConstantKeys[] = {"appId", "clientKey", "server"};
 
-const char *mStringConstantValues[] = {"57aa7fa98456cc338c8ac3b8f9e16d85cdb3d23c", "40a4ce68f4b339259d0d07864d48966558042432",
-                                       "http://abc.drunkendogs.xyz:80/parse"};
+const char *mStringConstantValues[] = {"APPID", "CLIENTKEY",
+                                       "SERVERIP"};
 
 // Define keys/values for all the integer constants
 const char *mIntegerConstantKeys[] = {"db_version", "max_reversal_attempt", "phone_number",
